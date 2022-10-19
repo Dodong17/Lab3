@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+body {
+    height: 100%;
+    background-color: #D7C0AE;
+}
+.navbar {
+    padding: 25px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+    position: sticky;
+    background-color: black;
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.6);
+    box-sizing: border-box;
+    
+}
+.navbar .logo h1 {
+    color: black;
+    background-color: orange;
+  
+}
+.navbar  span {
+    color: white;
+    background-color: black;
+    padding-bottom: 1px;
+}
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a {
+    display: block;
+    margin-left: 50px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+.navbar .menu li a:hover {
+    border-bottom: 4px solid white;
+    transition: 0.5s;
+
+}
+.navbar .menu li a i {
+    color: orange;
+
+}
+.login-btn {
+    color: black !important;
+    border: 1px solid orange;
+    border-radius: 7px;
+    padding: 6px 7px;
+    background-color: orange;
+    font-weight: bold !important;
+}
+
+/* about cart */
+
+.cart-add {
+    margin: 80px auto;
+}
+
+ table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: auto;
+ }
+ .info {
+    display: flex;
+    flex-wrap: wrap;
+ }
+ th {
+    text-align: left;
+    padding: 5px;
+    color: #000;
+    font-weight: normal;
+    background: orange;
+    font-size: 30px;
+ }
+ td {
+    padding: 10px 5px;
+ }
+ td input {
+    width: 40px;
+    padding: 5px;
+    height: 30px;
+ }
+ td small,
+ td p {
+    font-size: 22px;
+    margin-top: 20px;
+ }
+
+ td a {
+    color: red;
+    font-size: 15px;
+    text-decoration: none;
+    
+ }
+ td img {
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+ }
+
+
+ .total {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 22px;
+
+ }
+ .total table {
+    border-top: 5px solid orange;
+    max-width: 2000px; 
+ }
+ td:last-child {
+    text-align: right;
+ }
+ th:last-child {
+    text-align: right;
+ }
